@@ -1,0 +1,36 @@
+---
+layout: post
+title: "Trabalhos de Formatura Supervisionado 2013"
+date: 2013-01-01 12:00:00
+categories: tcc
+---
+
+ Estas são as monografias entregues no ano 2013 para a disciplina MAC499 - Trabalho de Formatura Supervisionado. O conteúdo dos trabalhos é de responsabilidade dos alunos, não cabendo ao Departamento de Ciência da Computação, ao supervisor do trabalho e ao coordenador da disciplina qualquer responsabilidade pela publicação de dados incorretos ou não autorizados nestes trabalhos. 
+
+<ul class="tccs">
+<li><a href="http://bcc.ime.usp.br/tccs/2013/alberto/">Redes Complexas</a><br>Alberto Bueno Junior</li>
+<li><a href="http://bcc.ime.usp.br/tccs/2013/rec/almir/">CandyTex - editor LaTeX On-line</a><br>Almir Alves Pereira</li>
+<li><a href="http://bcc.ime.usp.br/tccs/2013/andre/">Distribuição de carga em execução de scripts no sistema VisionDataset</a><br>André Spanguero Kanayama</li></li>
+<li><a href="http://bcc.ime.usp.br/tccs/2013/rec/bruno/">Projeto e implementação de serviços analícos para o DataUSP-PósGrad</a><br>Bruno Padilha</li>
+<li><a href="http://bcc.ime.usp.br/tccs/2013/camila/">Verificação e validação de sistemas críticos reais</a><br>Camila Fernandez Achutti</li>
+<li><a href="http://bcc.ime.usp.br/tccs/2013/rec/celso/">Desenvolvimento de jogos para análise de capacidaes executivas em criança de 5 a 7 anos.</a><br>Celso Masahiro Shimabukuro</li>
+<li><a href="http://bcc.ime.usp.br/tccs/2013/diego/">Um guia para testes de escalabilidade de serviços web</a><br>Diego de Araujo Camarinha</li>
+<li><a href="http://bcc.ime.usp.br/tccs/2013/diogo/">Dívida Técnica</a><br>Diogo de Jesus Pina</li>
+<li><a href="http://bcc.ime.usp.br/tccs/2013/rec/fabiano+leandro/">Desenvolvimento de um simulador de jogo de estratégia em tempo real</a><br>Fabiano Aono</li>
+<li><a href="http://bcc.ime.usp.br/tccs/2013/felipe-perestrelo/">Sistema recomendador para comércio eletrônico</a><br>Felipe de Carvalho Perestrelo</li>
+<li><a href="http://bcc.ime.usp.br/tccs/2013/felipe/">Aprimoramento de uma ferramenta de predição de ncRNAs baseada em estruturas secundárias</a><br>Felipe Lamberti Amado</li>
+<li><a href="http://bcc.ime.usp.br/tccs/2013/fernando+wilson/">Projeto Ouroboros</a><br>Fernando Omar Aluani</li>
+<li><a href="http://bcc.ime.usp.br/tccs/2013/rec/gustavo/">Geração aleatória de ambientes para jogos eletrônicos</a><br>Gustavo Teixeira da Cunha Coelho</li>
+<li><a href="http://bcc.ime.usp.br/tccs/2013/rec/henrique/">Rede Distribuída descentralizada para localização de outros usuários</a><br>Henrique Gemignani Passos Lima</li>
+<li><a href="http://bcc.ime.usp.br/tccs/2013/vitor/">Um sistema de criptografia de broadcast para navegadores de internet</a><br>Hilder Vitor Lima Pereira</li>
+<li><a href="http://bcc.ime.usp.br/tccs/2013/rec/fabiano+leandro/">Desenvolvimento de um simulador de jogo de estratégia em tempo real</a><br>Leandro Aono</li>
+<li><a href="http://bcc.ime.usp.br/tccs/2013/rec/paulo/">Anatomia do BitTorrent</a><br>Paulo Cheadi Haddad Filho</li>
+<li><a href="http://bcc.ime.usp.br/tccs/2013/pedro/">Algoritmos de Escalonamento para redução do consumo de energia em Computação em Nuvem</a><br>Pedro Paulo Vezza Campos</li>
+<li><a href="http://bcc.ime.usp.br/tccs/2013/renato/">Ferramenta de acessibilidade para deficientes visuais de cores</a><br>Renato Augusto Vieira Nishimori</li>
+<li><a href="http://bcc.ime.usp.br/tccs/2013/rodrigo+wallace/">API de navegação no Google Street View e análise de imagens da paisagem urbana</a><br>Rodrigo Alves Lima</li>
+<li><a href="http://bcc.ime.usp.br/tccs/2013/rodrigo/">Implementação de um Framework de Banco de Dados para apoio ao projeto de aplicação de questionários complexos em entrevistas dinâmicas</a><br>Rodrigo Muller de Carvalho</li>
+<li><a href="http://bcc.ime.usp.br/tccs/2013/thiago/">Desenvolvimento de um jogo integrado à rede social Facebook</a><br>Thiago Tatsuo Nagaoka</li>
+<li><a href="http://bcc.ime.usp.br/tccs/2013/rodrigo+wallace/">API de navegação no Google Street View e análise de imagens da paisagem urbana</a><br>Wallace Faveron de Almeida</li>
+<li><a href="http://bcc.ime.usp.br/tccs/2013/william/">Crea+ Computação</a><br>William Alexandre Miura Gnann</li>
+<li><a href="http://bcc.ime.usp.br/tccs/2013/fernando+wilson/">Projeto Ouroboros</a><br>Wilson Kazuo Mizutani</li>
+</ul>
