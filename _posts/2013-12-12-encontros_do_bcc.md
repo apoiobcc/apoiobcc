@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: experimental
 title: "Encontros do BCC"
 date: 2013-12-12 00:00:00
 ---

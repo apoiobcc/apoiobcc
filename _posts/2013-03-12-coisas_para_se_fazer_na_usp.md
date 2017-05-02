@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: experimental
 title: "Coisas para se fazer na USP"
 date: 2013-03-12 00:00:00
 ---

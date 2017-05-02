@@ -1,35 +1,33 @@
-### your site title here
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely edit after that. If you find
+# yourself editing this file very often, consider using Jekyll's data files
+# feature for the data you need to update frequently.
+#
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'bundle exec jekyll serve'. If you change this file, please restart the server process.
 
+# Site settings
+# These are used to personalize your new site. If you look in the HTML files,
+# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
+# You can create any custom variable you would like, and they will be accessible
+# in the templates via {{ site.myvariable }}.
 title: Apoio ao BCC
-baseurl: '/beta' # name of the repository
-url: "http://bcc.ime.usp.br"
-email: "Nathan Benedetto Proença"
-destination: '/var/www/beta/'
+email: nathan@ime.usp.br
+description: > # this means to ignore newlines until "baseurl:"
+    Alunos da computação.
+    Por alunos da computação.
+    Para alunos da computação
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "" # the base hostname & protocol for your site, e.g. http://example.com
+twitter_username: jekyllrb
+github_username:  jekyll
 
-
-highlighter: rouge
+# Build settings
 markdown: kramdown
-### exclude the instructions / write-up in the README.md
-
-
-#optimization
-#compress.html
-compress_html:
-  clippings: [html,div, p, ul, td, h1, h2, h3, h4,link, meta, footer, nav, img, header, hr, br, head, style, li, ul, ol, time, main, script, title]
-  comments: ["<!-- ", " -->"]
-  endings: [all]
-  ignore:
-    envs: [local]
-  blanklines: false
-  profile: false
-  startings: []
-  
-
-sass:
- style: compressed
-
+gems:
+  - jekyll-feed
 exclude:
-- README.md
-
-
-gems: [jekyll-seo-tag, jekyll-paginate]
+  - Gemfile
+  - Gemfile.lock

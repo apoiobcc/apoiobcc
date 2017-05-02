@@ -1,0 +1,61 @@
+---
+# My first theme
+---
+@import "experimental";
+
+body {
+    font-family: 'Fira Sans', sans-serif;
+    text-rendering: otimizeLegibility;
+    background: $back;
+    color: $fore;
+}
+
+main {
+    @extend .container;
+}
+
+nav {
+    padding-top: 1em;
+    background: $darkgreen;
+}
+
+p {
+    @extend .flow-text;
+    margin-bottom: 2em;
+}
+
+h1, h2, h3, a {
+    font-family: 'Fira Mono', monospace;
+}
+
+section {
+    @extend .section;
+    @extend .row;
+    min-height: 600px;
+}
+
+.item {
+    @extend .l4;
+    @extend .m6;
+    @extend .s12;
+}
+
+.topic1, .topic3 {
+    @extend .col;
+    @extend .m8;
+    @extend .offset-m4;
+    @extend .s12;
+    h1, h2, h3, a {
+        color: $orange;
+    }
+}
+
+.topic2, .topic4 {
+    @extend .col;
+    @extend .m8;
+    @extend .s12;
+    h1, h2, h3, a {
+        color: $blue;
+    }
+}
+

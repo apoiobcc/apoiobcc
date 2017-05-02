@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: experimental
 title:  "Página da Opção curricular"
 date:   2015-12-09 00:00:00
 categories: grade
