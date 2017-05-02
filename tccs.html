@@ -2,8 +2,6 @@
 layout: experimental
 ---
 <h1 class="headline">Depósito de TCC's</h1>
-{% for post in site.posts %}
-    {% if post.categories contains 'tcc' %}
+{% for post in site.categories.tcc %}
         <h3><a href="{{post.url | prepend: site.baseurl}}">{{post.title}}</a></h3>
-    {% endif %}
 {% endfor %}
