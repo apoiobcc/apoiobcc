@@ -9,7 +9,7 @@ layout: experimental
 <div class="topic1">
     {% for post in site.categories.news %}
         <div class="item">
-            <h3>{{ post.title }}</h3>
+            <h3><a href="{{post.url | prepend: site.baseurl}}">{{ post.title }}</a></h3>
             {{ post.excerpt }}
             <a href="{{post.url | prepend: site.baseurl}}">Leia mais</a>
         </div>

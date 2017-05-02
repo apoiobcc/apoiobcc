@@ -19,13 +19,14 @@ nav {
     background: $darkgreen;
 }
 
-h1, h2, h3, em {
-    font-family: 'Fira Mono', monospace;
+h1, h2, h3, em, a {
     color: $green;
+    text-decoration: none;
+    font-style: normal;
 }
 
 a {
-    color: $blue;
+    font-family: 'Fira Mono', monospace;
 }
 
 section {
@@ -40,27 +41,25 @@ section {
     @extend .s12;
 }
 
-.topic1, .topic3 {
+.topic1, .topic2, .topic3, .topic4, .text {
     @extend .col;
     @extend .m8;
-    @extend .offset-m4;
     @extend .s12;
+}
+
+.topic1, .topic3 {
     h1, h2, h3, em {
         color: $green;
     }
 }
 
 .topic2, .topic4 {
-    @extend .col;
-    @extend .m8;
-    @extend .s12;
     h1, h2, h3, em {
         color: $blue;
     }
 }
 
 .text {
-    max-width: 600px;
     margin: 50px;
     p {
         @extend .flow-text;
