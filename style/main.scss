@@ -19,13 +19,13 @@ nav {
     background: $darkgreen;
 }
 
-p {
-    @extend .flow-text;
-    margin-bottom: 2em;
+h1, h2, h3, em {
+    font-family: 'Fira Mono', monospace;
+    color: $green;
 }
 
-h1, h2, h3, a {
-    font-family: 'Fira Mono', monospace;
+a {
+    color: $blue;
 }
 
 section {
@@ -45,8 +45,8 @@ section {
     @extend .m8;
     @extend .offset-m4;
     @extend .s12;
-    h1, h2, h3, a {
-        color: $orange;
+    h1, h2, h3, em {
+        color: $green;
     }
 }
 
@@ -54,8 +54,16 @@ section {
     @extend .col;
     @extend .m8;
     @extend .s12;
-    h1, h2, h3, a {
+    h1, h2, h3, em {
         color: $blue;
     }
 }
 
+.text {
+    max-width: 600px;
+    margin: 50px;
+    p {
+        @extend .flow-text;
+        margin-bottom: 1.5em;
+    }
+}

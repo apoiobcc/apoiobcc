@@ -7,93 +7,24 @@ layout: experimental
 
 <section>
 <div class="topic1">
-    <h2>Vida acadêmica</h2>
-    <div class="item">
-        <h3>Carlinhos alopra Ludmila.</h3>
-        <p>
-            O que os alunos conseguiram fazer no final do curso?
-            Otimização o quê? Entenda as matérias que você pode cursar no 
-            próximo semestre, e escolha a que mais te faz feliz!
-            Será que bate horário? Será que vou poder ir no Quinta e Breja?
-            Planeje seu próximo semestre!
-        </p>
-        <a>Leia mais</a>
-    </div>
+    {% for post in site.categories.news %}
+        <div class="item">
+            <h3>{{ post.title }}</h3>
+            {{ post.excerpt }}
+            <a href="{{post.url | prepend: site.baseurl}}">Leia mais</a>
+        </div>
+    {% endfor %}
 </div>
 </section>
 <section>
 <div class="topic2">
-    <h2>Seção 2</h2>
-    <div class="item">
-        <h3>TCCs</h3>
-        <p>
-            O que os alunos conseguiram fazer no final do curso?
-        </p>
-    </div>
-    <div class="item">
-        <h3>Disciplinas</h3>
-        <p>
-            Otimização o quê? Entenda as matérias que você pode cursar no 
-            próximo semestre, e escolha a que mais te faz feliz!
-        </p>
-    </div>
-    <div class="item">
-        <h3>Matrusp</h3>
-        <p>
-            Será que bate horário? Será que vou poder ir no Quinta e Breja?
-            Planeje seu próximo semestre!
-        </p>
-    </div>
-</div>
-</section>
-
-<section>
-<div class="topic3">
-    <h2>Seção 2</h2>
-    <div class="item">
-        <h3>TCCs</h3>
-        <p>
-            O que os alunos conseguiram fazer no final do curso?
-        </p>
-    </div>
-    <div class="item">
-        <h3>Disciplinas</h3>
-        <p>
-            Otimização o quê? Entenda as matérias que você pode cursar no 
-            próximo semestre, e escolha a que mais te faz feliz!
-        </p>
-    </div>
-    <div class="item">
-        <h3>Matrusp</h3>
-        <p>
-            Será que bate horário? Será que vou poder ir no Quinta e Breja?
-            Planeje seu próximo semestre!
-        </p>
-    </div>
-</div>
-</section>
-<section>
-<div class="topic4">
-    <h2>Seção 2</h2>
-    <div class="item">
-        <h3>TCCs</h3>
-        <p>
-            O que os alunos conseguiram fazer no final do curso?
-        </p>
-    </div>
-    <div class="item">
-        <h3>Disciplinas</h3>
-        <p>
-            Otimização o quê? Entenda as matérias que você pode cursar no 
-            próximo semestre, e escolha a que mais te faz feliz!
-        </p>
-    </div>
-    <div class="item">
-        <h3>Matrusp</h3>
-        <p>
-            Será que bate horário? Será que vou poder ir no Quinta e Breja?
-            Planeje seu próximo semestre!
-        </p>
-    </div>
+    <h2>Depósito de TCCs</h2>
+    {% for post in site.categories.tcc %}
+        <div class="item">
+            <h3>{{ post.title }}</h3>
+            {{ post.excerpt }}
+            <a href="{{post.url | prepend: site.baseurl}}">Leia mais</a>
+        </div>
+    {% endfor %}
 </div>
 </section>
