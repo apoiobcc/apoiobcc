@@ -66,3 +66,18 @@ section {
         margin-bottom: 1.5em;
     }
 }
+
+.mobile-calendar {
+    min-height: 100px;
+}
+
+@media #{$medium-and-down} {
+    .browser-calendar {
+        display: none;
+    }
+}
+@media #{$large-and-up} {
+    .mobile-calendar {
+        display: none;
+    }
+}
