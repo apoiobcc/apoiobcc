@@ -71,13 +71,24 @@ section {
     min-height: 100px;
 }
 
+.logo {
+    margin: 5px;
+}
+
 @media #{$medium-and-down} {
     .browser-calendar {
         display: none;
+    }
+    .logo {
+        height: 35px;
     }
 }
 @media #{$large-and-up} {
     .mobile-calendar {
         display: none;
+    }
+    .logo {
+        margin-left: 20px;
+        height: 40px;
     }
 }
