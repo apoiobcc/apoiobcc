@@ -1,0 +1,79 @@
+/* ementas-novas */
+BODY {
+  background: white; 
+  margin-left: 8%;
+  margin-right: 8%;
+  padding: 0; /*to appease Microsoft IE*/
+  font-size: 110%; 
+  font-family: "Book Antiqua", "Century Schoolbook L", "TeXGyrePagella", "DejaVu Serif", "Garamond", serif; 
+}
+span.hlt {
+  background-color: #ffffb0;
+}
+span.dim {
+  color: #a0a0a0;
+/*font-style: italic;*/
+  font-size: 0.87em;
+}
+p.dim {
+  color: #a0a0a0;
+/*font-style: italic;*/
+  font-size: 0.87em;
+}
+div.small {
+  font-size: 0.90em;
+  color: #a0a0a0;
+}
+pre.small {
+  font-size: 0.80em;
+}
+ul {
+/*list-style-type: none;*/
+  disposition: inline;
+  margin: 0; /*for crossbrowser compatibility*/
+/*padding: 0;*/ /*for crossbrowser compatibility*/
+}
+li {
+  margin-top: 0.3em;
+  padding-right: 0.5em;
+/*display: inline;*/ /*for Jupiter-like version*/
+}
+ul.en {
+  font-style: italic;
+/*list-style-type: circle;*/ /*noi effect under inline*/
+  disposition: inline;
+  margin: 1em 0em 0em 0em; /*for crossbrowser compatibility*/
+  padding: 0; /*for crossbrowser compatibility*/
+}
+li.en {
+  margin-top: 0em;
+  padding-right: 0.0em;
+  display: inline; /*for Jupiter-like version*/
+}
+hr.footer {
+  margin-top: 3em;
+  margin-bottom: 0em;
+}
+address { 
+  font-style: italic;
+  font-size: 0.87em;
+}
+span.hide {
+   display: inline;
+   color: black;
+   background-color: #d0ffd0;
+}
+p.hide {
+   display: block;
+   color: black;
+   background-color: #d0ffd0;
+}
+li.hide {
+   color: black;
+   background-color: #d0ffd0;
+}
+div.hide {
+   display: block;
+   color: black;
+   background-color: #d0ffd0;
+}
