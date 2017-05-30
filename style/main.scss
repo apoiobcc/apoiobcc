@@ -29,6 +29,11 @@ a {
     font-family: 'Fira Mono', monospace;
 }
 
+.danger {
+    font-style: italic;
+    color: red;
+}
+
 section {
     @extend .section;
     @extend .row;
@@ -73,6 +78,10 @@ section {
 
 .logo {
     margin: 5px;
+}
+
+.collapsible-header, .card {
+    background-color: $card;
 }
 
 @media #{$medium-and-down} {
