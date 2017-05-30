@@ -3,6 +3,14 @@
 ---
 @import "experimental";
 
+i {
+    font-style: normal;
+}
+
+blockquote {
+    border:none;
+}
+
 body {
     font-family: 'Fira Sans', sans-serif;
     text-rendering: otimizeLegibility;
@@ -84,6 +92,10 @@ section {
     background-color: $card;
 }
 
+.dim {
+    margin: auto;
+}
+
 @media #{$medium-and-down} {
     .browser-calendar {
         display: none;
@@ -99,5 +111,8 @@ section {
     .logo {
         margin-left: 20px;
         height: 40px;
+    }
+    .dim {
+        max-width: 50%;
     }
 }
