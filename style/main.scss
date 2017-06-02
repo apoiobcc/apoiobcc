@@ -23,11 +23,11 @@ main {
 
 nav {
     padding-top: 1em;
-    background: $darkgreen;
+    background: $cianpen;
 }
 
 h1, h2, h3, em, a {
-    color: $green;
+    color: $cianpen;
     text-decoration: none;
     font-style: normal;
 }
@@ -59,15 +59,28 @@ section {
     @extend .s12;
 }
 
-.topic1, .topic3 {
+.topic1 {
     h1, h2, h3, em {
-        color: $green;
+        color: $cianpen;
     }
 }
 
-.topic2, .topic4 {
-    h1, h2, h3, em {
-        color: $blue;
+
+.topic2 {
+    h1, h2, h3, a, em {
+        color: $orangepen;
+    }
+}
+
+.topic3 {
+    h1, h2, h3, a, em {
+        color: $violetpen;
+    }
+}
+
+.topic4 {
+    h1, h2, h3, a, em {
+        color: $pinkpen;
     }
 }
 

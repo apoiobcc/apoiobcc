@@ -23,15 +23,30 @@ layout: experimental
         <h2>Depósito de TCCs</h2>
         {% for post in site.categories.tcc %}
             <div class="item">
-                <span class="blue-text">
-                    <h3>{{ post.title }}</h3>
-                    <p>
-                    {{ post.excerpt }}
-                    </p>
-                    <a href="{{post.url | prepend: site.baseurl}}">Leia mais</a>
-                </span>
+                <h3>{{ post.title }}</h3>
+                <p>
+                {{ post.excerpt }}
+                </p>
+                <a href="{{post.url | prepend: site.baseurl}}">Leia mais</a>
             </div>
         {% endfor %}
     </div>
 </div>
+
+<div class="topic3">
+    <div class="card-panel">    
+        <h2>MatrUSP</h2>
+        <p> Organize sua grade de horários das disciplinas.</p>
+        <a href="principal/matrusp">Leia mais</a>
+    </div>
+</div>
+
+<div class="topic4">
+    <div class="card-panel">    
+        <h2>Gatinhos</h2>
+        <p> Gatos são superiores.</p>
+        <a href="principal/matrusp">Leia mais</a>
+    </div>
+</div>
+
 </section>
