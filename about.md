@@ -1,6 +1,6 @@
 ---
-layout: experimental
-title: About
+layout: text
+title: 'apoio@bcc'
 permalink: /about/
 ---
 
