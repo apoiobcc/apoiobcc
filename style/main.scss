@@ -57,32 +57,32 @@ section {
 }
 
 .topic1 {
-    h1, h2, h3, em {
+    h1, h2, h3, h4, em {
         color: $cianpen;
     }
 }
 
 
 .topic2 {
-    h1, h2, h3, a, em {
+    h1, h2, h3, h4, a, em {
         color: $orangepen;
     }
 }
 
 .topic3 {
-    h1, h2, h3, a, em {
+    h1, h2, h3, a, h4, em {
         color: $violetpen;
     }
 }
 
 .topic4 {
-    h1, h2, h3, a, em {
+    h1, h2, h3, h4, a, em {
         color: $pinkpen;
     }
 }
 
 .offset-m2 {
-    h1, h2, h3, p, a {
+    h1, h2, h3, h4, p, a {
         text-align: right;
     }
 }
