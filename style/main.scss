@@ -87,14 +87,6 @@ section {
     }
 }
 
-.topictitle {
-    h1, h2, h3, a, em {
-        color: $white;
-    }
-    background-image: url('{{ site.baseurl }}/assets/transparentcian.png');
-    background-repeat: repeat;
-}
-
 .text {
     margin: 50px;
     p {
