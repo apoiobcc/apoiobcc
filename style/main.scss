@@ -18,9 +18,6 @@ body {
     color: $fore;
 }
 
-.text-main {
-}
-
 nav {
     padding-top: 1em;
     background: $cianpen;
@@ -44,7 +41,7 @@ a {
 section {
     @extend .section;
     @extend .row;
-    min-height: 600px;
+    min-height: 300px;
 }
 
 .item {
