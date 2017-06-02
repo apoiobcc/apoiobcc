@@ -27,7 +27,7 @@ layout: experimental
     </div>
 </div>
 
-<div class="topic2 offset-m2">
+<div class="topic2">
     <div class="card-panel">    
         <h2>Depósito de TCCs</h2>
         {% for post in site.categories.tcc %}
