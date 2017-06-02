@@ -2158,6 +2158,7 @@ html {
  * Remove default margin.
  */
 body {
+  background-image:; url("https://raw.githubusercontent.com/nathanPro/ApoioAoBCC/master/visual/placeholder.jpg");
   margin: 0;
 }
 
@@ -4402,6 +4403,7 @@ h1 {
   font-size: 4.2rem;
   line-height: 110%;
   margin: 2.1rem 0 1.68rem 0;
+  text-align: center;
 }
 
 h2 {
