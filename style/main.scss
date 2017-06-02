@@ -10,7 +10,10 @@ blockquote {
 body {
     font-family: 'Fira Sans', sans-serif;
     text-rendering: otimizeLegibility;
-    background: $back;
+    background-image: url('https://raw.githubusercontent.com/nathanPro/ApoioAoBCC/master/visual/placeholder.jpg');
+    background-repeat: no-repeat;
+    background-position: right top;
+    background-attachment: fixed;
     color: $fore;
 }
 
