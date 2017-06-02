@@ -22,7 +22,7 @@ layout: experimental
     <div class="card-panel">    
         <h2>MatrUSP</h2>
         <p> Organize sua grade de horários das disciplinas.</p>
-        <p><a href="principal/matrusp">Leia mais</a></p>
+        <p><a href="{{ site.baseurl }}/matrusp">Leia mais</a></p>
         
     </div>
 </div>
