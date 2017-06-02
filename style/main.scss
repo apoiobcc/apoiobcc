@@ -13,7 +13,6 @@ body {
     background-image: url('{{ site.baseurl }}/assets/placeholder.jpg');
     background-repeat: no-repeat;
     background-position: center bottom;
-    background-size:100% 95%;
     background-attachment: fixed;
     color: $fore;
 }
@@ -120,6 +119,9 @@ section {
     }
 }
 @media #{$large-and-up} {
+    body {
+        background-size:100% 95%;
+    }
     .mobile-calendar {
         display: none;
     }
