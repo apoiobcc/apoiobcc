@@ -41,14 +41,3 @@ layout: experimental
         {% endfor %}
     </div>
 </div>
-
-
-<div class="topic4 offset-m2">
-    <div class="card-panel">    
-        <h2>Gatinhos</h2>
-        <p> Gatos são superiores.</p>
-        <a href="principal/matrusp">Leia mais</a>
-    </div>
-</div>
-
-</section>
