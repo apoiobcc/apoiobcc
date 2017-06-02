@@ -3,10 +3,6 @@
 ---
 @import "experimental";
 
-i {
-    font-style: normal;
-}
-
 blockquote {
     border:none;
 }
@@ -89,7 +85,7 @@ section {
 }
 
 .collapsible-header, .card {
-    background-color: $card;
+    // background-color: $card;
 }
 
 .dim {
