@@ -10,15 +10,15 @@ blockquote {
 body {
     font-family: 'Fira Sans', sans-serif;
     text-rendering: otimizeLegibility;
-    background-image: url('https://raw.githubusercontent.com/nathanPro/ApoioAoBCC/master/visual/placeholder.jpg');
+    background-image: url('{{ site.baseurl }}/assets/placeholder.jpg');
     background-repeat: no-repeat;
-    background-position: right top;
+    background-position: center bottom;
+    background-size:100% 95%;
     background-attachment: fixed;
     color: $fore;
 }
 
-main {
-    @extend .container;
+.text-main {
 }
 
 nav {
@@ -53,10 +53,10 @@ section {
     @extend .s12;
 }
 
-.topic1, .topic2, .topic3, .topic4, .text {
+.topic1, .topic2, .topic3, .topic4, .text-main {
     @extend .col;
-    @extend .m8;
     @extend .s12;
+    @extend .m10;
 }
 
 .topic1, .topic3 {
@@ -66,6 +66,7 @@ section {
 }
 
 .topic2, .topic4 {
+    @extend .offset-m2;
     h1, h2, h3, em {
         color: $blue;
     }
