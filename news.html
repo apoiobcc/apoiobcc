@@ -2,6 +2,13 @@
 layout: experimental
 ---
 <h1>Novidades</h1>
+<ul class="collection">
 {% for post in site.categories.news %}
-        <h3><a href="{{post.url | prepend: site.baseurl}}">{{post.title}}</a></h3>
+    <li class="collection-item">
+        <span class="title"><a href="{{post.url | prepend: site.baseurl}}">{{post.title}}</a></span>
+        <p>
+            {{ post.excerpt }}
+        </p>
+    </li>
 {% endfor %}
+</ul>

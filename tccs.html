@@ -2,6 +2,10 @@
 layout: experimental
 ---
 <h1 class="headline">Depósito de TCC's</h1>
+<ul class="collection">
 {% for post in site.categories.tcc %}
+        <li class="collection-item">
         <h3><a href="{{post.url | prepend: site.baseurl}}">{{post.title}}</a></h3>
+        </li>
 {% endfor %}
+</ul>
