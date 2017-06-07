@@ -23,7 +23,18 @@ layout: experimental
         <h2>MatrUSP</h2>
         <p> Organize sua grade de horários das disciplinas.</p>
         <p><a href="{{ site.baseurl }}/matrusp">Leia mais</a></p>
-        
+    </div>
+
+    <div class="card-panel">    
+        <h2>Yggdrasil</h2>
+        <p> Entenda as trilhas que você pode optar no curso!</p>
+        <p><a href="http://bcc.ime.usp.br/yggdrasil/">Leia mais</a></p>
+    </div>
+
+    <div class="card-panel">    
+        <h2>Grade curricular</h2>
+        <p> Entenda os detalhes da grade da computação.</p>
+        <p><a href="http://bcc.ime.usp.br/principal/grade.html">Leia mais</a></p>
     </div>
 </div>
 
