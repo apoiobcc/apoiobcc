@@ -88,6 +88,12 @@ section {
 
 .text {
     margin: 50px;
+    h2 {
+    }
+    .author {
+        display: block;
+        margin-top:-1em;
+    }
     p {
         @extend .flow-text;
         margin-bottom: 1.5em;
