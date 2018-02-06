@@ -22,6 +22,16 @@ nav {
     background: $cianpen;
 }
 
+.container {
+    padding-left: 120px;
+}
+
+@media only screen and (max-width : 992px) {
+    .container {
+        padding-left: 0;
+    }
+}
+
 h1, h2, h3, h4, h5, em, a {
     color: $cianpen;
     text-decoration: none;
