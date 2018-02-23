@@ -1,0 +1,14 @@
+---
+title: 'Depósito de TCCs'
+layout: text
+author: apoio@BCC
+date: 2017-05-05
+---
+
+<ul class="collection">
+{% for post in site.categories.tcc %}
+        <li class="collection-item">
+        <h3><a href="{{post.url | prepend: site.baseurl}}">{{post.title}}</a></h3>
+        </li>
+{% endfor %}
+</ul>

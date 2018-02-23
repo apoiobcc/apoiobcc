@@ -5,8 +5,8 @@
 layout: experimental
 ---
 
-<section>
-<div class="topic1">
+<!--
+<div class="topic1 offset-m2">
     {% for post in site.categories.news %}
         <div class="card-panel">    
             <div class="item">
@@ -18,7 +18,7 @@ layout: experimental
     {% endfor %}
 </div>
 
-<div class="topic3 offset-m2">
+<div class="topic1">
     <div class="card-panel">    
         <h2>MatrUSP</h2>
         <p> Organize sua grade de horários das disciplinas.</p>
@@ -50,5 +50,43 @@ layout: experimental
                 <p><a href="{{post.url | prepend: site.baseurl}}">Leia mais</a></p>
             </div>
         {% endfor %}
+    </div>
+</div>
+-->
+
+<section>
+    <div class="topic1">
+        <div class="card-panel">
+            <h2>Últimas Notícias</h2>
+            <ul class="collection">
+                {% for post in site.categories.news limit:3 %}
+                <li class="collection-item">
+                    <span class="title"><a href="{{post.url | prepend: site.baseurl}}">{{ post.title }}</a></span>
+                    <p> {{ post.excerpt }} </p>
+                    <a href="{{post.url | prepend: site.baseurl}}">Leia mais</a>
+                </li>
+                {% endfor %}
+            </ul>
+        </div>
+    </div>
+</section>
+
+<div class="topic1">
+    <div class="card-panel">    
+        <h2>MatrUSP</h2>
+        <p> Organize sua grade de horários das disciplinas.</p>
+        <p><a href="{{ site.baseurl }}/matrusp">Leia mais</a></p>
+    </div>
+
+    <div class="card-panel">    
+        <h2>Grupos de Extensão</h2>
+        <p> Confira os grupos de extensão!</p>
+        <p><a href="{{ site.baseurl }}/miscelanea/gruposExtensao.html">Leia mais</a></p>
+    </div>
+
+    <div class="card-panel">    
+        <h2>Grade curricular</h2>
+        <p> Entenda os detalhes da grade da computação.</p>
+        <p><a href="{{ site.baseurl }}/vida_academica/grade.html">Leia mais</a></p>
     </div>
 </div>

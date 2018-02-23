@@ -12,7 +12,7 @@ body {
     text-rendering: otimizeLegibility;
     background-image: url('{{ site.baseurl }}/assets/placeholder.jpg');
     background-repeat: no-repeat;
-    background-position: center 2em;
+    background-position: center 0em;
     background-attachment: fixed;
     color: $fore;
 }
@@ -20,6 +20,16 @@ body {
 nav {
     padding-top: 1em;
     background: $cianpen;
+}
+
+.container {
+    padding-left: 120px;
+}
+
+@media only screen and (max-width : 992px) {
+    .container {
+        padding-left: 0;
+    }
 }
 
 h1, h2, h3, h4, h5, em, a {

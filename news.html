@@ -1,19 +1,17 @@
 ---
-layout: experimental
+layout: text
+title: Novidades
+author: apoio@bcc
 ---
-<div class="topic2">
-	<div class="card-panel">
-		<h1>Novidades</h1>
-	</div>
-</div>
-
 <ul class="collection">
 {% for post in site.categories.news %}
-    <li class="collection-item">
-        <span class="title"><a href="{{post.url | prepend: site.baseurl}}">{{post.title}}</a></span>
-        <p>
-            {{ post.excerpt }}
-        </p>
+    <li class="card">
+
+			<div class="card-content">
+				<a href="{{post.url | prepend: site.baseurl}}" class="card-title">{{ post.title }}</a>
+				<p>{{ post.excerpt }}</p>
+			</div>
+
     </li>
 {% endfor %}
 </ul>
