@@ -1,0 +1,14 @@
+#! /bin/sh
+mkdir thumbs
+
+for img in *.jpg ; do
+#    echo $img
+    echo \<acronym title=\"Foto de Anchises M. Guimarães de Paula \(1995\).\"\> 
+    echo   \<a href=\"./fotos/30/kiki/$img\"\> 
+    echo      \<img src=\"./fotos/30/kiki/thumbs/$img\"\> 
+    echo   \</a\>
+    echo \</acronym\>
+    echo \\n
+
+    convert -thumbnail 5%x5% $img ./thumbs/$img
+done

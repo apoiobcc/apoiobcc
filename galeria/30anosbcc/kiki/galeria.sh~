@@ -1,0 +1,14 @@
+#! /bin/sh
+mkdir thumbs
+
+for img in *.jpg ; do
+#    echo $img
+    echo \<acronym title=\"Foto de Carlos Eduardo Ferreira \(1986\).\"\> 
+    echo   \<a href=\"./fotos/30/marcilio/$img\"\> 
+    echo      \<img src=\"./fotos/30/marcilio/thumbs/$img\"\> 
+    echo   \</a\>
+    echo \</acronym\>
+    echo \\n
+
+    convert -thumbnail 10%x10% $img ./thumbs/$img
+done
