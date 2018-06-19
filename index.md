@@ -71,22 +71,26 @@ layout: experimental
     </div>
 </section>
 
-<div class="topic1">
-    <div class="card-panel">    
-        <h2>MatrUSP</h2>
-        <p> Organize sua grade de horários das disciplinas.</p>
-        <p><a href="{{ site.baseurl }}/matrusp">Leia mais</a></p>
-    </div>
+<section>
+    <div class="topic1">
+        
+        <div class="card-panel">    
+            <h2>MatrUSP</h2>
+            <p> Organize sua grade de horários das disciplinas.</p>
+            <p><a href="{{ site.baseurl }}/matrusp">Leia mais</a></p>
+        </div>
 
-    <div class="card-panel">    
-        <h2>Grupos de Extensão</h2>
-        <p> Confira os grupos de extensão!</p>
-        <p><a href="{{ site.baseurl }}/miscelanea/gruposExtensao.html">Leia mais</a></p>
-    </div>
+        <div class="card-panel">    
+            <h2>Grupos de Extensão</h2>
+            <p> Confira os grupos de extensão!</p>
+            <p><a href="{{ site.baseurl }}/miscelanea/gruposExtensao.html">Leia mais</a></p>
+        </div>
 
-    <div class="card-panel">    
-        <h2>Grade curricular</h2>
-        <p> Entenda os detalhes da grade da computação.</p>
-        <p><a href="{{ site.baseurl }}/vida_academica/grade.html">Leia mais</a></p>
+        <div class="card-panel">    
+            <h2>Grade curricular</h2>
+            <p> Entenda os detalhes da grade da computação.</p>
+            <p><a href="{{ site.baseurl }}/vida_academica/grade.html">Leia mais</a></p>
+        </div>
+
     </div>
-</div>
+</section>

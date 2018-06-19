@@ -26,6 +26,10 @@ nav {
     padding-left: 120px;
 }
 
+.collection {
+    @extend .xl12;
+}
+
 @media only screen and (max-width : 992px) {
     .container {
         padding-left: 0;
@@ -150,5 +154,8 @@ section {
     }
     .dim {
         max-width: 50%;
+    }
+    section {
+        padding-left: 100px;
     }
 }
