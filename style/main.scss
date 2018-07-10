@@ -18,12 +18,10 @@ body {
 }
 
 nav {
-    padding-top: 1em;
     background: $cianpen;
 }
 
 .container {
-    padding-left: 310px;
     width: 90%;
 }
 
@@ -146,6 +144,7 @@ section {
 @media #{$large-and-up} {
     body {
         background-size: cover;
+        margin-top: -$navbar-height;
     }
     .mobile-calendar {
         display: none;
@@ -156,5 +155,9 @@ section {
     }
     .dim {
         max-width: 50%;
+    }
+    .container{
+        padding-top: $navbar-height;
+        padding-left: 310px;
     }
 }

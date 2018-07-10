@@ -1,80 +1,40 @@
-<!-- Facebook voodo witchcraft -->
-<div id="fb-root"></div>
 <script>
-  (function(d, s, id) {
-    var js, fjs = d.getElementsByTagName(s)[0];
-    if (d.getElementById(id)) return;
-    js = d.createElement(s); js.id = id;
-    js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.10";
-    fjs.parentNode.insertBefore(js, fjs);
-  }
-  (document, 'script', 'facebook-jssdk'));
+  $( document ).ready(function(){})
+  $(".button-collapse").sideNav();
 </script>
 
-<div class="nav-wrapper">
-  <ul class="side-nav fixed cyan darken-4" id="slide-out">
-    <a href="{{ site.baseurl }}/"><img class="logo" src="{{ site.baseurl }}/assets/logo.png"></a>
-    <li><div class="divider"></div></li>
+<nav>
+  <div class="nav-wrapper">
+    <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
+    <ul id="mobile-demo" class="side-nav fixed cyan darken-4">
+      <a href="{{ site.baseurl }}/"><img class="logo" src="{{ site.baseurl }}/assets/logo.png"></a>
+      <li><a class="white-text" href="{{ site.baseurl }}/news.html"><b>Novidades</b></a></li>
+      <li><div class="divider"></div></li>
 
-    <li><a class="white-text" href="{{ site.baseurl }}/news.html"><b>Novidades</b></a></li>
-    <li><div class="divider"></div></li>
+      <li><a class="white-text" href="{{ site.baseurl }}/vidaAcademica"><b>Vida Acadêmica</b></a></li>
 
-    <li><a class="white-text" href="{{ site.baseurl }}/vidaAcademica"><b>Vida Acadêmica</b></a></li>
+      <li><div class="divider"></div></li>
+      <li><a class="white-text" href="{{ site.baseurl }}/vida_academica/grade.html">Grade Curricular</a></li>
+      <li><a class="white-text" href="{{ site.baseurl }}/vida_academica/trilhas.html">Trilhas</a></li>
+      <li><a class="white-text" href="{{ site.baseurl }}/vida_academica/dispensas.html">Dispensas de Disciplinas</a></li>
+      <li><a class="white-text" href="{{ site.baseurl }}/vida_academica/depositoTccs.html">Depósito de TCC's</a></li>
 
-    <li><div class="divider"></div></li>
-    <li><a class="white-text" href="{{ site.baseurl }}/vida_academica/grade.html">Grade Curricular</a></li>
-    <li><a class="white-text" href="{{ site.baseurl }}/vida_academica/trilhas.html">Trilhas</a></li>
-    <li><a class="white-text" href="{{ site.baseurl }}/vida_academica/dispensas.html">Dispensas de Disciplinas</a><li>
-    <li><a class="white-text" href="{{ site.baseurl }}/vida_academica/depositoTccs.html">Depósito de TCC's</a></li>
 
-    <li><div class="divider"></div></li>
-    <li><a class="white-text" href="{{ site.baseurl }}/miscelanea.html"><b>Miscelânea</b></a></li>
+      <li><div class="divider"></div></li>
+      <li><a class="white-text" href="{{ site.baseurl }}/miscelanea.html"><b>Miscelânea</b></a></li>
 
-    <li><div class="divider"></div></li>
-    <li><a class="white-text" href="{{ site.baseurl }}/miscelanea/calendario.html">Calendário</a></li>
-    <li><a class="white-text" href="{{ site.baseurl }}/miscelanea/gruposExtensao.html">Grupos de Extensão</a></li>
-    <li><a class="white-text" href="http://bcc.ime.usp.br/matrusp/" target="_blank" >MatrUSP</a></li>
-    <li><a class="white-text" href="http://bcc.ime.usp.br/yggdrasil/" target="_blank">Yggdrasil</a></li>
-    <li><a class="white-text" href="{{ site.baseurl }}/galeria/galeria.html">Galeria de Fotos</a></li>
-    <li><a class="white-text" href="{{ site.baseurl }}/miscelanea/premioPIPA.html">Prêmio PIPA</a></li>
-    <li><a class="white-text" href="{{ site.baseurl }}/miscelanea/rc.html">Representantes de Classe</a></li>
-    <li><a class="white-text" href="{{ site.baseurl }}/miscelanea/encontrobcc.html">Encontro do BCC</a></li>
+      <li><div class="divider"></div></li>
+      <li><a class="white-text" href="{{ site.baseurl }}/miscelanea/calendario.html">Calendário</a></li>
+      <li><a class="white-text" href="{{ site.baseurl }}/miscelanea/gruposExtensao.html">Grupos de Extensão</a></li>
+      <li><a class="white-text" href="http://bcc.ime.usp.br/matrusp/" target="_blank" >MatrUSP</a></li>
+      <li><a class="white-text" href="http://bcc.ime.usp.br/yggdrasil/" target="_blank">Yggdrasil</a></li>
+      <li><a class="white-text" href="{{ site.baseurl }}/galeria/galeria.html">Galeria de Fotos</a></li>
+      <li><a class="white-text" href="{{ site.baseurl }}/miscelanea/premioPIPA.html">Prêmio PIPA</a></li>
+      <li><a class="white-text" href="{{ site.baseurl }}/miscelanea/rc.html">Representantes de Classe</a></li>
+      <li><a class="white-text" href="{{ site.baseurl }}/miscelanea/encontrobcc.html">Encontro do BCC</a></li>
 
-    <li><div class="divider"></div></li>
-    <li><a class="white-text" href="{{ site.baseurl }}/apoio.html"><b>Sobre o Apoio ao BCC</b></a></li>
-    
-  </ul>
-
-  <ul class="side-nav" id="slide-out">
-    <li><div class="divider"></div></li>
-
-    <li><a class="white-text" href="{{ site.baseurl }}/news.html"><b>Novidades</b></a></li>
-    <li><div class="divider"></div></li>
-
-    <li><a class="white-text" href="{{ site.baseurl }}/vidaAcademica"><b>Vida Acadêmica</b></a></li>
-
-    <li><div class="divider"></div></li>
-    <li><a class="white-text" href="{{ site.baseurl }}/vida_academica/grade.html">Grade Curricular</a></li>
-    <li><a class="white-text" href="{{ site.baseurl }}/vida_academica/trilhas.html">Trilhas</a></li>
-    <li><a class="white-text" href="{{ site.baseurl }}/vida_academica/dispensas.html">Dispensas de Disciplinas</a></li>
-    <li><a class="white-text" href="{{ site.baseurl }}/vida_academica/depositoTccs.html">Depósito de TCC's</a></li>
-
-    <li><div class="divider"></div></li>
-    <li><a class="white-text" href="{{ site.baseurl }}/miscelanea.html"><b>Miscelânea</b></a></li>
-
-    <li><div class="divider"></div></li>
-    <li><a class="white-text" href="{{ site.baseurl }}/miscelanea/calendario.html">Calendário</a></li>
-    <li><a class="white-text" href="{{ site.baseurl }}/miscelanea/gruposExtensao.html">Grupos de Extensão</a></li>
-    <li><a class="white-text" href="http://bcc.ime.usp.br/matrusp/" target="_blank" >MatrUSP</a></li>
-    <li><a class="white-text" href="http://bcc.ime.usp.br/yggdrasil/" target="_blank">Yggdrasil</a></li>
-    <li><a class="white-text" href="{{ site.baseurl }}/miscelanea/premioPIPA.html">Prêmio PIPA</a></li>
-    <li><a class="white-text" href="{{ site.baseurl }}/miscelanea/rc.html">Representantes de Classe</a></li>
-    <li><a class="white-text" href="{{ site.baseurl }}/miscelanea/encontrobcc.html">Encontro do BCC</a></li>
-
-    <li><div class="divider"></div></li>
-    <li><a class="white-text" href="{{ site.baseurl }}/apoio.html"><b>Sobre o Apoio ao BCC</b></a></li>
-
-  </ul>
-</div>
-
-<a href="#" data-activates="slide-out" class="button-collapse"><i class="material-icons">menu</i></a>
+      <li><div class="divider"></div></li>
+      <li><a class="white-text" href="{{ site.baseurl }}/apoio.html"><b>Sobre o Apoio ao BCC</b></a></li>
+    </ul>
+  </div>
+</nav>
