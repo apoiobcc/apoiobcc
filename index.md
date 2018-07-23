@@ -3,6 +3,7 @@
 # Edit theme's home layout instead if you wanna make some changes
 # See: https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 layout: experimental
+title: Apoio ao Bacharelado em Ciência da Computação IME-USP
 ---
 
 <!--
@@ -73,7 +74,7 @@ layout: experimental
 
 <section>
     <div class="topic1">
-        
+
         <div class="card-panel">    
             <h2>MatrUSP</h2>
             <p> Organize sua grade de horários das disciplinas.</p>
