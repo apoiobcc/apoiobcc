@@ -1,13 +1,15 @@
 language: ruby
 rvm:
-  - 1.29.3
+  - 2.6
 
 before_script:
  - chmod +x ./_scripts/test.sh
 
 # Assume bundler is being used, therefore
 # the `install` step will run `bundle install` by default.
-script: ./_scripts/test.sh
+script: 
+ - ./_scripts/test.sh
+ - ./_scripts/deploy.sh
 
 # branch whitelist, only for GitHub Pages
 #branches:
