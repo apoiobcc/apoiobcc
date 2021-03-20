@@ -1,0 +1,38 @@
+---
+layout: text
+title: 'Lista de ex-alunes'
+author: apoio@BCC
+date: 20-03-2021
+---
+
+A lista a seguir contém todos os ex-alunes do Bacharelado em Ciência da Computação.
+
+<br> <br>
+
+<div class="btn-group">
+
+    {% for list_year in site.data.graduados_por_ano %}
+        <button onClick="document.getElementById('{{ list_year[0] }}').scrollIntoView();"> <a id="#2019"> {{ list_year[0] }} </a> </button>
+    {% endfor %}
+
+</div>  
+
+<br>   
+
+<ul class="tccs collection">
+
+    {% for list_year in site.data.graduados_por_ano %}
+    <li class="collection-item">
+        <ul>
+            <a id="{{ list_year[0] }}"></a>
+            <h4> <a> {{ list_year[0] }} </a> </h4>
+            {% for graduate in list_year[1] %}
+            <li>
+                {{ graduate }}
+            </li>
+            {% endfor %}
+        </ul>
+    </li>
+    {% endfor %}
+
+</ul>
