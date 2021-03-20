@@ -1,4 +1,4 @@
-# Pagina do apoio BCC
+# Pagina do Apoio BCC
 
 ## Rodando localmente
 
