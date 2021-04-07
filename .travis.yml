@@ -16,9 +16,7 @@ install:
 
 cache: bundler # caching bundler gem packages will speed up build    
 
-script: 
-    - ./_scripts/test.sh
-    - ./_scripts/deploy.sh
+script: ./_scripts/test.sh && ./_scripts/deploy.sh
 
 notifications:
     email: false
