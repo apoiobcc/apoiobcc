@@ -57,7 +57,7 @@ title: Apoio ao Bacharelado em Ciência da Computação IME-USP
         <div class="card-panel">
             <h2>Últimas Notícias</h2>
             <ul class="collection">
-                {% for post in site.categories.news limit:3 %}
+                {% for post in site.categories.news limit:5 %}
                 <li class="collection-item">
                     <span class="title"><a href="{{post.url | prepend: site.baseurl}}">{{ post.title }}</a></span>
                     <p> {{ post.excerpt }} </p>
