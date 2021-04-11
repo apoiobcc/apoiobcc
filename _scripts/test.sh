@@ -2,6 +2,9 @@
 
 set -e # halt script on error
 
-echo 'Building commit for test...'
-bundle exec jekyll build -d ./_site && \
+echo 'Bundle install for test...'
+bundle install
+
+echo 'Building for test...'
+bundle exec jekyll build -d ./_site
 echo 'SUCCESS!'
