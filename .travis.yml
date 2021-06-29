@@ -16,11 +16,9 @@ install:
 
 cache: bundler # caching bundler gem packages will speed up build    
 
-script: ./_scripts/test.sh && ./_scripts/deploy.sh
+script:
+    - 'if [ "$TRAVIS_PULL_REQUEST" != "false" ]; then bash ./_scripts/test.sh; fi'
+    - 'if [ "$TRAVIS_PULL_REQUEST" = "false" ]; then bash ./_scripts/test.sh && ./_scripts/deploy.sh; fi'
 
 notifications:
     email: false
-
-branches:
-    only: 
-        - master
