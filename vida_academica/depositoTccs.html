@@ -6,9 +6,9 @@ date: 2017-05-05
 ---
 
 <ul class="collection">
-{% for post in site.categories.tcc %}
+        {% for post in site.categories.tcc %}
         <li class="collection-item">
-        <h3><a href="{{post.url | prepend: site.baseurl}}">{{post.title}}</a></h3>
+                <h5><a href="{{post.url | prepend: site.baseurl}}">{{post.title}}</a></h5>
         </li>
-{% endfor %}
+        {% endfor %}
 </ul>
