@@ -32,7 +32,7 @@ jobs:
     - name: Test and deploy
       run: |
         chmod +x ./_scripts/*.sh
-        echo $TESTE
+        echo "$TESTE"
         if [ "${{ github.event_name }}" != "pull_request" ]; then
           bash ./_scripts/test.sh && ./_scripts/deploy.sh
         else
