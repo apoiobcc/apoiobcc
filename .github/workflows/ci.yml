@@ -8,6 +8,7 @@ on:
 env:
   USERNAME_BCC: ${{ secrets.USERNAME_BCC }}
   PASSWORD_BCC: ${{ secrets.PASSWORD_BCC }}
+  TESTE: ${{ secrets.TESTE_DEBUG }}
 
 jobs:
   deploy:
@@ -31,6 +32,7 @@ jobs:
     - name: Test and deploy
       run: |
         chmod +x ./_scripts/*.sh
+        echo $TESTE
         if [ "${{ github.event_name }}" != "pull_request" ]; then
           bash ./_scripts/test.sh && ./_scripts/deploy.sh
         else
