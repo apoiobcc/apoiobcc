@@ -1,0 +1,38 @@
+name: Deployment and Testing
+
+on:
+  push:
+    branches:
+      - master
+
+env:
+  USERNAME_BCC: ${{ secrets.USERNAME_BCC }}
+  PASSWORD_BCC: ${{ secrets.PASSWORD_BCC }}
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v2
+    
+    - name: Set up Ruby
+      uses: actions/setup-ruby@v1
+      with:
+        ruby-version: 2.6
+    
+    - name: Install dependencies
+      run: |
+        sudo apt-get update
+        sudo apt-get install -y libcurl4-openssl-dev sshpass
+        gem install bundle
+    
+    - name: Test and deploy
+      run: |
+        chmod +x ./_scripts/*.sh
+        if [ "${{ github.event_name }}" != "pull_request" ]; then
+          bash ./_scripts/test.sh && ./_scripts/deploy.sh
+        else
+          bash ./_scripts/test.sh
+        fi
