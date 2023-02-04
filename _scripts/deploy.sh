@@ -8,7 +8,7 @@ if [ "$GITHUB_EVENT_NAME" != "push" ]; then
     exit 0
 fi
 
-sshpass -p ${PASSWORD_BCC} ssh -o StrictHostKeyChecking=no ${USERNAME_BCC}@bcc.ime.usp.br "${PASSWORD_BCC}=${PASSWORD_BCC} bash --login -c 'bash -s'" <<'ENDSSH'
+sshpass -p ${PASSWORD_BCC} ssh -o StrictHostKeyChecking=no ${USERNAME_BCC}@bcc.ime.usp.br "PASSWORD_BCC=${PASSWORD_BCC} bash --login -c 'bash -s'" <<'ENDSSH'
   # commands to run on remote host
   echo "Acesso à máquina concluído" && \
   echo ${PASSWORD_BCC} | sudo -S -p '' echo "Connected!" && \
