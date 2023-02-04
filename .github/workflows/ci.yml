@@ -38,3 +38,5 @@ jobs:
         else
           bash ./_scripts/test.sh
         fi
+      env:
+        TESTE: ${{ secrets.TESTE_DEBUG }}
